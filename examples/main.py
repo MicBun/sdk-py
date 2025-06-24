@@ -1,7 +1,7 @@
 from datetime import datetime, timezone, timedelta
 from trufnetwork_sdk_py.client import TNClient
 
-TEST_PROVIDER_URL = "http://localhost:8484" # Replace with mainnet URL https://gateway.mainnet.truf.network if you want to connect to mainnet
+TEST_PROVIDER_URL = "https://gateway.mainnet.truf.network" # Replace with mainnet URL https://gateway.mainnet.truf.network if you want to connect to mainnet
 TEST_PRIVATE_KEY = "0000000000000000000000000000000000000000000000000000000000000001" # Replace with your private key
 
 def main():
